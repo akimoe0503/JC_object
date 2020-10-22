@@ -160,3 +160,92 @@ function prontMessage(dora, num){
 }
 
 prontMessage('どらえもん',7);
+
+
+// 以下の関数を作成して、作成した関数を実行してください。
+
+// 関数名：printMaxNum
+// 引数1：1つの数値
+// 引数2：1つの数値
+// 処理内容：引数で受け取った2つの数値のうち、最も大きな数値を出力する。
+
+function printMaxNum(msg){
+
+}
+
+
+
+printMaxNum(5);
+
+// 以下の関数を作成して、作成した関数を実行してください。
+
+// 関数名：getSquared
+// 引数1：1つの数値
+// 処理内容：引数で受け取った数値の2乗を計算し返す
+
+function getSquared
+
+
+
+getSquared();
+
+// 以下の関数を作成して、作成した関数を実行してください。
+
+// 関数名：createSelfIntroductionText
+// 引数1：1つの文字列
+// 処理内容：「私の名前は○○です」という文字の〇〇を引数で受け取った文字列にし返す
+
+// 例
+
+// var message = createSelfIntroductionText("NexSeed");
+// console.log(message);
+
+// // 実行結果
+// 私の名前はNexSeedです
+
+
+function createSelfIntroductionText
+
+
+
+createSelfIntroductionText();
+
+
+// 以下の関数を作成して、作成した関数を実行してください。
+
+// 関数名：isEvenNumber
+// 引数1：1つの数値
+// 処理内容：引数で渡された値が偶数の場合は true、そうでない場合は false を返す。
+
+// 例
+
+// var result = isEvenNumber(3);
+// console.log(result);
+
+// // 実行結果
+// false
+
+function isEvenNumber
+
+
+
+
+
+
+isEvenNumber();
+
+
+// 以下の関数を作成して、作成した関数を実行してください。
+
+// 関数名：isSeedKun
+// 引数1：任意の文字列
+// 処理内容：引数で渡された文字列が「SeedKun」の場合は true、そうでない場合は false を返す。
+
+
+function isSeedKun
+
+
+
+
+
+isSeedKun();
