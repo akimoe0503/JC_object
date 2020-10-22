@@ -169,13 +169,17 @@ prontMessage('どらえもん',7);
 // 引数2：1つの数値
 // 処理内容：引数で受け取った2つの数値のうち、最も大きな数値を出力する。
 
-function printMaxNum(msg){
-
+function printMaxNum(num1, num2) {
+    if (num1 > num2) {
+        console.log(num1);
+    } else if (num1 < num2) {
+        console.log(num2);
+    } else {
+				console.log("同じ");
+		}
 }
 
-
-
-printMaxNum(5);
+printMaxNum(1, 5);
 
 // 以下の関数を作成して、作成した関数を実行してください。
 
@@ -183,11 +187,12 @@ printMaxNum(5);
 // 引数1：1つの数値
 // 処理内容：引数で受け取った数値の2乗を計算し返す
 
-function getSquared
+function getSquared(num) {
+    return num * num
+}
 
-
-
-getSquared();
+var result = getSquared(4);
+console.log(result);
 
 // 以下の関数を作成して、作成した関数を実行してください。
 
@@ -204,11 +209,13 @@ getSquared();
 // 私の名前はNexSeedです
 
 
-function createSelfIntroductionText
+function createSelfIntroductionText(name) {
+    var msg = "私の名前は" + name + "です";
+    return msg;
+}
 
-
-
-createSelfIntroductionText();
+var message = createSelfIntroductionText("NexSeed");
+console.log(message);
 
 
 // 以下の関数を作成して、作成した関数を実行してください。
@@ -225,14 +232,16 @@ createSelfIntroductionText();
 // // 実行結果
 // false
 
-function isEvenNumber
+function isEvenNumber(num) {
+    if (num % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
-
-
-
-
-
-isEvenNumber();
+var result = isEvenNumber(3);
+console.log(result);
 
 
 // 以下の関数を作成して、作成した関数を実行してください。
@@ -242,10 +251,13 @@ isEvenNumber();
 // 処理内容：引数で渡された文字列が「SeedKun」の場合は true、そうでない場合は false を返す。
 
 
-function isSeedKun
+function isSeedKun(str) {
+    if (str == "SeedKun") {
+        return true;
+    } else {
+        return false;
+    }
+}
 
-
-
-
-
-isSeedKun();
+var result = isSeedKun("SeedKun");
+console.log(result);
