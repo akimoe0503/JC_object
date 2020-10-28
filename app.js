@@ -30,7 +30,7 @@ if (hantei === true) {
 	console.log('大丈夫');
 	messageSpan.textContent = '大丈夫';
 	messageSpan.style.color = 'blue';
-	message.style.fontSiza = '18px';
+	message.style.fontSiza = '20px';
 
 } else {
 	console.log('やり直し');
@@ -179,7 +179,7 @@ function printMaxNum(num1, num2) {
 		}
 }
 
-printMaxNum(1, 5);
+printMaxNum(3, 5);
 
 // 以下の関数を作成して、作成した関数を実行してください。
 
@@ -187,12 +187,25 @@ printMaxNum(1, 5);
 // 引数1：1つの数値
 // 処理内容：引数で受け取った数値の2乗を計算し返す
 
+// 戻り値(返り値)return の値;の形で、実行した川に戻される値
+// 引数と逆方向に値を送る
+
 function getSquared(num) {
     return num * num
 }
-
+// 変数宣言
 var result = getSquared(4);
 console.log(result);
+
+if (result > 100){
+	console.log('100以上');
+}
+
+//再宣言
+var result = 0;
+
+// 再代入
+result = 10;
 
 // 以下の関数を作成して、作成した関数を実行してください。
 
@@ -214,7 +227,10 @@ function createSelfIntroductionText(name) {
     return msg;
 }
 
-var message = createSelfIntroductionText("NexSeed");
+// 定数 再代入できない
+const Company = "Moe";
+
+var message = createSelfIntroductionText(Company)
 console.log(message);
 
 
